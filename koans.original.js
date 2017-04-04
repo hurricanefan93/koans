@@ -1,16 +1,16 @@
 import test from 'ava'
-const __ = undefined
+const let = undefined
 
 /**
  * Assertions
  */
 
 test('What will satisfy the truthy assertion?', t => {
-  t.truthy(__)
+  t.truthy(undefined)
 })
 
 test('What is a falsey value?', t => {
-  t.falsy(__)
+  t.falsy(0)
 })
 
 test('What is true?', t => {
